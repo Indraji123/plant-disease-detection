@@ -22,9 +22,8 @@ st.title("🌾 Wheat Pest & Disease Detection")
 st.info("ℹ️ **Note:** This model can detect only these diseases: Aphid, Black Rust, Blast, Brown Rust, Common Root Rot, " \
 "Fusarium Head, Leaf Blight, Mildew, Mite, Septoria, Smut, Stem_fly, Tan spot, Yellow Rust")
 
-st.write("Upload an image to detect Pest & Disease")
-
-uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
+# st.write("Upload an image to detect Pest & Disease")
+uploaded_file = st.file_uploader("Upload an Image(Wheat)", type=["jpg", "jpeg", "png"])
 
 if uploaded_file:
     st.image(uploaded_file, caption="Uploaded Image (Original)", use_column_width=True)
