@@ -18,7 +18,10 @@ disease_classes = [
     'Smut', 'Stem_fly', 'Tan spot', 'yellow_rust'
 ]
 
-st.title("🌾 Plant Disease Detection")
+st.title("🌾 Wheat Disease Detection")
+st.info("ℹ️ **Note:** This model can detect only these diseases: Aphid, Black Rust, Blast, Brown Rust, Common Root Rot, " \
+"Fusarium Head, Leaf Blight, Mildew, Mite, Septoria, Smut, Stem_fly, Tan spot, Yellow Rust")
+
 st.write("Upload an image to detect plant diseases using YOLOv8")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
