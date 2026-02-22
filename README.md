@@ -1,4 +1,3 @@
-# Wheat pest and disease detection 
 
 ![Wheat](wheat.JPG)
 
